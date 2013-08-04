@@ -105,3 +105,25 @@ def publication_timeseries(imdf):
 	ts = ts.sort_index()
 	return ts
 
+def field_normalise(imdf):
+	field = [str(s).split('; ')[0].lower().lstrip().rstrip() for s in imdf.WC]
+	imdf['field'] = field
+	return imdf
+
+def fields_over_time(imdf):
+	""" Returns new dataframe with fields as columns and years as index
+	"""
+	tsf=imdf.groupby(['field'])['PY'].value_counts()
+	tsf = tsf.sort_index()
+	fields_df = tsf.unstack(level=0)
+	index = range(imdf.PY.min(), int(imdf.PY.max())+1)
+	fields_df = fields_df.reindex(index)
+	fields_df = fields.fillna(0)
+	return fields_df
+
+# To plot the fields with less columns:
+# cols = [col for col in fields_df.columns if fields_df[col].sum()>10]
+# fields_df[cols].cumsum().plot(alpha=0.6, legend=True)
+# fields.plot(kind='bar',legend=True, stacked=True)
+
+
