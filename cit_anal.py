@@ -113,12 +113,16 @@ def field_normalise(imdf):
 def fields_over_time(imdf):
 	""" Returns new dataframe with fields as columns and years as index
 	"""
+	#clean up the publication dates
+	if 'publication_date' not in imdf.keys():
+	 	imdf = publication_dates(imdf)
+
 	tsf=imdf.groupby(['field'])['PY'].value_counts()
 	tsf = tsf.sort_index()
 	fields_df = tsf.unstack(level=0)
 	index = range(imdf.PY.min(), int(imdf.PY.max())+1)
 	fields_df = fields_df.reindex(index)
-	fields_df = fields.fillna(0)
+	fields_df = fields_df.fillna(0)
 	return fields_df
 
 # To plot the fields with less columns:
