@@ -13,6 +13,7 @@
 # <codecell>
 
 import pandas as pd
+import seaborn
 import cit_anal as ca
 import pickle
 import re
@@ -22,29 +23,27 @@ from IPython.display import HTML
 
 # <markdowncell>
 
-# ## Literatures: imaginaries (all humanities/social science fields) and the sts literature (from 3 major journals)
+# ## Literatures: imaginaries (all humanities/social science fields) and the sts literature (from 3 major journals or from around 70 journals)
 # 
-# The analysis explores the relation between **two literatures** - the imaginaries literature and the sts literature:
+# The analysis explores the relation between **three literatures** - the imaginaries literature and the sts literature:
 # 
-# 1. For 'imaginaries,' the query was 'imaginaries or imaginary' in any social science or humanities publication (all years);
+# 1. For 'imaginaries,' the query was 'imaginaries' or 'imaginary' in any social science or humanities publication (all years);
 # 2. For STS, the query asked for all publications from Social Studies of Science, STHV and Science as Culture (all years).
+# 3. For broader STS work, using the list of STS journals from http://www.4sonline.org/resources/journals, the 'imaginary/imaginaries' query
 # 
 # The queries were run on Thomson Scientific Web of Science. Full records including cited references were downloaded for both literatures.
 # 
-# ## The literatures
-# 
-# As it happens, there are roughly the same number of publications in both literatures. 
 
 # <codecell>
 
 imdf = ca.load_records(dir = 'data/')
-print(str(imdf.shape[0]) + ' imaginary references to June 2013')
+print(str(imdf.shape[0]) + ' imaginary references across social science and humanities to Feb 2015')
 
 # <codecell>
 
 stsdf = ca.load_records(dir = 'data_sts_authors/')
 
-print(str(stsdf.shape[0]) + ' references published in the major sts journals to June 2013')
+print(str(stsdf.shape[0]) + ' references published in the major sts journals to Feb 2015')
 
 # <markdowncell>
 
