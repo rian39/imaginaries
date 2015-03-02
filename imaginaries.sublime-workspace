@@ -172,10 +172,10 @@
 	"buffers":
 	[
 		{
-			"file": "cit_anal.py",
+			"file": "imaginaries.py",
 			"settings":
 			{
-				"buffer_size": 3555,
+				"buffer_size": 20979,
 				"line_ending": "Unix"
 			}
 		}
@@ -288,6 +288,11 @@
 	"file_history":
 	[
 		"/home/mackenza/Documents/imaginaries_cesagen_2010/cit_anal.py",
+		"/home/mackenza/Documents/data_intensive/book/ch2-curves/Machine_Learning_Literature.py",
+		"/home/mackenza/Documents/data_intensive/book/ch2-curves/Machine_Learning_Literature.ipynb",
+		"/home/mackenza/Documents/imaginaries_cesagen_2010/ml_lit_anal.py",
+		"/home/mackenza/Documents/imaginaries_cesagen_2010/imaginaries.py",
+		"/home/mackenza/Documents/data_intensive/book/ch2-curves/C:\\nppdf32Log\\debuglog.txt",
 		"/home/mackenza/Downloads/savedrecs(25).txt",
 		"/home/mackenza/Documents/imaginaries_cesagen_2010/stsref_counts.pyd",
 		"/home/mackenza/Documents/imaginaries_cesagen_2010/data_sts_authors/savedrecs(17).txt",
@@ -409,12 +414,7 @@
 		"/home/mackenza/.config/sublime-text-2/Packages/User/untitled.sublime-snippet",
 		"/home/mackenza/Dropbox/data-economy/paper/4S EASST talk.docx",
 		"/home/mackenza/Desktop/build.R",
-		"/home/mackenza/Desktop/test3.md",
-		"/home/mackenza/Desktop/test4.R",
-		"/home/mackenza/Desktop/test2.mdown",
-		"/home/mackenza/Desktop/test1.md",
-		"/home/mackenza/R/montecarlo/data/refs.bib",
-		"/home/mackenza/Desktop/test6.rmd"
+		"/home/mackenza/Desktop/test3.md"
 	],
 	"find":
 	{
@@ -432,6 +432,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"operator",
 			"sts_df",
 			"'data'",
 			"stsdf",
@@ -563,29 +564,28 @@
 			[
 				{
 					"buffer": 0,
-					"file": "cit_anal.py",
+					"file": "imaginaries.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3555,
+						"buffer_size": 20979,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3087,
-								3315
+								4438,
+								4438
 							]
 						],
 						"settings":
 						{
 							"WordCountShouldRun": true,
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2226.0,
+						"translation.y": 2248.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -595,7 +595,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 41.0
+		"height": 39.0
 	},
 	"input":
 	{
