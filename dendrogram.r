@@ -1,3 +1,4 @@
+library('RCircos')
 library('rpart')
 library(ape)
 library(cluster)
@@ -15,7 +16,9 @@ row.names(imag) = imag$author
 plot(as.phylo(hclust(daisy(imag, metric='gower'))),type="fan")
 plot(as.phylo(hclust(daisy(imag, metric='gower'))))
 
+agnes(daisy(imag), diss=TRUE)
 #svg('dendrogram.svg')
+
 #plot(as.phylo(hclust(daisy(imag, metric='gower'))),type="fan")
 #dev.off()
 #plot(as.phylo(hclust(daisy(imag, metric='gower'))))
