@@ -1,4 +1,3 @@
-library('RCircos')
 library('rpart')
 library(ape)
 library(cluster)
