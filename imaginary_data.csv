@@ -1,24 +1,24 @@
-author,domain,year,primary_discipline,citations,term,link1,link2,relation to science,feminism,methodology
-Jasanoff,state,2005,political theory,54,sociotechnical imaginary,Taylor,Anderson,yes,no,comparative textual analysis
-Verran,post-colonial,1999,philosophy,20,philosophical imaginary,Le Doeuff,,yes,yes,ethnography
-Haraway,media-culture,1989,cultural studies,10000,"figuration, unconscious",Science Fiction,Freud,yes,yes,Material-semiotics
-Marcus,scientists,1995,social anthropology,70,technoscientific imaginary,,,yes,no,ethnography
-Taylor,state,2004,political theory,55,social imaginary,Castoriadis,,no,no,theory reading
-Anderson,state,1985,political theory,10000,imagined community,,,no,no,textual analysis
-Appadurai,media-culture,1986,social anthropology,5000,social imaginary,,,yes,no,ethnography
-Fujimura,scientists,2003,social anthropology,42,future imaginary,Marcus,Appadurai,yes,yes,ethnography
-Gaonkar,media-culture,2002,social anthropology,146,social imaginary,Taylor,Castoriadis,no,no,ethnography
-Waldby,biomedicine,2000,philosophy,69,biomedical imaginary,Le Doeuff,Haraway,yes,yes,textual analysis
-Franklin,biomedicine,2000,cultural studies,120,genetic imaginary,Haraway,,yes,yes,textual analysis
-Stacey,media-culture,2000,cultural studies,120,genetic imaginary,Haraway,Waldby,yes,yes,textual analysis
-Squiers,media-culture,2004,cultural studies,96,biomedical imaginary,Haraway,,yes,yes,textual analysis
-Fortun-fortun,biomedicine,2006,social anthropology,59,technoscientific imaginary,Marcus,,yes,no,ethnography
-Kant,thought,1780,philosophy,20000,imagination,Plato,,no,no,theory reading
-K-s Taussig,biomedicine,1997,social anthropology,10,geographical imaginary,Said,,yes,no,theory reading
-Castoriadis,state,1987,philosophy,1600,imaginary society,Kant,,no,no,theory reading
-Le Doeuff,thought,1989,philosophy,248,philosophical imaginary,Kant,Plato,no,yes,theory reading
-Lacan,subjectivity,1936,philosophy,5000,the imaginary,Freud,,no,no,theory reading
-Satre,subjectivity,1948,philosophy,600,the imaginary,Kant,,no,no,theory reading
-Gatens,subjectivity,1996,philosophy,950,imaginary body,Kant,Spinoza,no,yes,theory reading
-Hyysalo,biomedicine,2006,sociology,,practice-bound imaginary,Gregory,,yes,no,ethnography
-Gregory,state,1997,geography,189,geographical imaginary,,,no,no,
+term,author,domain,year,primary_discipline,citations,link1,link2,relation to science,feminism,methodology
+sociotechnical imaginary,Jasanoff,state,2005,political theory,54,Taylor,Anderson,yes,no,comparative textual analysis
+philosophical imaginary,Verran,post-colonial,1999,philosophy,20,Le Doeuff,,yes,yes,ethnography
+figuration,Haraway,media-culture,1989,cultural studies,10000,Science Fiction,Freud,yes,yes,Material-semiotics
+technoscientific imaginary,Marcus,scientists,1995,social anthropology,70,,,yes,no,ethnography
+social imaginary,Taylor,state,2004,political theory,55,Castoriadis,,no,no,theory reading
+imagined community,Anderson,state,1985,political theory,10000,,,no,no,textual analysis
+social imaginary,Appadurai,media-culture,1986,social anthropology,5000,Marx,,yes,no,ethnography
+future imaginary,Fujimura,scientists,2003,social anthropology,42,Marcus,Appadurai,yes,yes,ethnography
+social imaginary,Gaonkar,media-culture,2002,social anthropology,146,Taylor,Castoriadis,no,no,ethnography
+biomedical imaginary,Waldby,biomedicine,2000,philosophy,69,Le Doeuff,Haraway,yes,yes,textual analysis
+genetic imaginary,Franklin,biomedicine,2000,cultural studies,120,Haraway,,yes,yes,textual analysis
+genetic imaginary,Stacey,media-culture,2000,cultural studies,120,Haraway,Waldby,yes,yes,textual analysis
+biomedical imaginary,Squiers,media-culture,2004,cultural studies,96,Haraway,,yes,yes,textual analysis
+technoscientific imaginary,Fortun-Fortun,biomedicine,2006,social anthropology,59,Marcus,,yes,no,ethnography
+imagination,Kant,thought,1780,philosophy,20000,Plato,,no,no,theory reading
+geographical imaginary,K-S Taussig,biomedicine,1997,social anthropology,10,Said,Gregory,yes,no,theory reading
+imaginary society,Castoriadis,state,1987,philosophy,1600,Kant,,no,no,theory reading
+philosophical imaginary,Le Doeuff,thought,1989,philosophy,248,Kant,Plato,no,yes,theory reading
+the imaginary,Lacan,subjectivity,1936,philosophy,5000,Freud,,no,no,theory reading
+the imaginary,Satre,subjectivity,1948,philosophy,600,Kant,,no,no,theory reading
+imaginary body,Gatens,subjectivity,1996,philosophy,950,Kant,Spinoza,no,yes,theory reading
+practice-bound imaginary,Hyysalo,biomedicine,2006,sociology,51,Gregory,,yes,no,ethnography
+geographical imaginary,Gregory,state,1997,geography,189,Said,Foucault,no,no,discourse analysis
