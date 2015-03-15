@@ -1,27 +1,37 @@
-term,author,domain,year,primary_discipline,citations,link1,link2,relation to science,feminism,methodology
-sociotechnical imaginary,Jasanoff,state,2005,political theory,54,Taylor,Anderson,yes,no,comparative textual analysis
-philosophical imaginary,Verran,post-colonial,1999,philosophy,20,Le Doeuff,,yes,yes,ethnography
-figuration,Haraway,media-culture,1989,cultural studies,10000,Science Fiction,Freud,yes,yes,Material-semiotics
-technoscientific imaginary,Marcus,scientists,1995,social anthropology,70,,,yes,no,ethnography
-social imaginary,Taylor,state,2004,political theory,55,Castoriadis,,no,no,theory reading
-imagined community,Anderson,state,1985,political theory,10000,,,no,no,textual analysis
-social imaginary,Appadurai,media-culture,1986,social anthropology,5000,Marx,,yes,no,ethnography
-future imaginary,Fujimura,scientists,2003,social anthropology,42,Marcus,Appadurai,yes,yes,ethnography
-social imaginary,Gaonkar,media-culture,2002,social anthropology,146,Taylor,Castoriadis,no,no,ethnography
-biomedical imaginary,Waldby,biomedicine,2000,philosophy,69,Le Doeuff,Haraway,yes,yes,textual analysis
-genetic imaginary,Franklin,biomedicine,2000,cultural studies,120,Haraway,,yes,yes,textual analysis
-genetic imaginary,Stacey,media-culture,2000,cultural studies,120,Haraway,Waldby,yes,yes,textual analysis
-biomedical imaginary,Squiers,media-culture,2004,cultural studies,96,Haraway,,yes,yes,textual analysis
-technoscientific imaginary,Fortun-Fortun,biomedicine,2006,social anthropology,59,Marcus,,yes,no,ethnography
-imagination,Kant,thought,1780,philosophy,20000,Plato,,no,no,theory reading
-geographical imaginary,K-S Taussig,biomedicine,1997,social anthropology,10,Said,Gregory,yes,no,theory reading
-imaginary society,Castoriadis,state,1987,philosophy,1600,Kant,,no,no,theory reading
-philosophical imaginary,Le Doeuff,thought,1989,philosophy,248,Kant,Plato,no,yes,theory reading
-the imaginary,Lacan,subjectivity,1936,philosophy,5000,Freud,,no,no,theory reading
-the imaginary,Satre,subjectivity,1948,philosophy,600,Kant,,no,no,theory reading
-imaginary body,Gatens,subjectivity,1996,philosophy,950,Kant,Spinoza,no,yes,theory reading
-practice-bound imaginary,Hyysalo,biomedicine,2006,sociology,51,Gregory,,yes,no,ethnography
-geographical imaginary,Gregory,state,1997,geography,189,Said,Foucault,no,no,discourse analysis
-sociotechnical imaginary,Smith,state,2009,political theory,14,Jasanoff,,yes,no,comparative textual analysis
-reiterative imaginary,Suchman/Castenada,scientists,2014,social anthropology,10,Haraway,,yes,yes,comparative textual analysis
-global imaginary,Steger,state,2013,political theory,,,,no,no,textual analysis
+"term","author","domain","year","primary_discipline","citations","cites1","cites2","relation to science","feminism","methodology"
+"sociotechnical imaginary","Jasanoff","state",2005,"political theory",54,"Taylor","Anderson","yes","no","comparative textual analysis"
+"philosophical imaginary","Verran","post-colonial",1999,"philosophy",20,"Le Doeuff",,"yes","yes","ethnography"
+"figuration","Haraway","media-culture",1989,"cultural studies",10000,"Science Fiction","Freud","yes","yes","Material-semiotics"
+"technoscientific imaginary","Marcus","scientists",1995,"social anthropology",70,"Kant",,"yes","no","ethnography"
+"social imaginary","Taylor","state",2004,"political theory",55,"Castoriadis",,"no","no","theory reading"
+"imagined community","Anderson","state",1985,"political theory",55000,"Kant",,"no","no","textual analysis"
+"social imaginary","Appadurai","media-culture",1986,"social anthropology",5000,"Marx",,"yes","no","ethnography"
+"future imaginary","Fujimura","scientists",2003,"social anthropology",42,"Marcus","Appadurai","yes","yes","ethnography"
+"social imaginary","Gaonkar","media-culture",2002,"social anthropology",146,"Taylor","Castoriadis","no","no","ethnography"
+"biomedical imaginary","Waldby","biomedicine",2000,"philosophy",69,"Le Doeuff","Haraway","yes","yes","textual analysis"
+"genetic imaginary","Franklin","biomedicine",2000,"cultural studies",120,"Haraway",,"yes","yes","textual analysis"
+"genetic imaginary","Stacey","media-culture",2000,"cultural studies",120,"Haraway","Waldby","yes","yes","textual analysis"
+"biomedical imaginary","Squiers","media-culture",2004,"cultural studies",96,"Haraway",,"yes","yes","textual analysis"
+"technoscientific imaginary","Fortun-Fortun","biomedicine",2006,"social anthropology",59,"Marcus",,"yes","no","ethnography"
+"imagination","Kant","subjectivity",1780,"philosophy",20000,"Plato",,"no","no","theory reading"
+"geographical imaginary","K-S Taussig","biomedicine",1997,"social anthropology",10,"Said","Gregory","yes","no","theory reading"
+"imaginary society","Castoriadis","state",1987,"philosophy",1600,"Kant",,"no","no","theory reading"
+"philosophical imaginary","Le Doeuff","subjectivity",1989,"philosophy",248,"Kant","Plato","no","yes","theory reading"
+"the imaginary","Lacan","subjectivity",1936,"philosophy",5000,"Freud",,"no","no","theory reading"
+"the imaginary","Satre","subjectivity",1948,"philosophy",600,"Kant",,"yes","no","theory reading"
+"imaginary body","Gatens","subjectivity",1996,"philosophy",950,"Kant","Spinoza","no","yes","theory reading"
+"practice-bound imaginary","Hyysalo","biomedicine",2006,"sociology",51,"Gregory",,"yes","no","ethnography"
+"geographical imaginary","Gregory","state",1994,"geography",189,"Said","Foucault","no","no","discourse analysis"
+"sociotechnical imaginary","Smith","state",2009,"political theory",14,"Jasanoff",,"yes","no","comparative textual analysis"
+"reiterative imaginary","Suchman/Castenada","scientists",2014,"social anthropology",10,"Haraway",,"yes","yes","comparative textual analysis"
+"global imaginary","Steger","state",2002,"political theory",789,"Taylor","Marx","no","no","textual analysis"
+"public imaginaries","Welsh/Wynne","science",2013,"sociology",14,"Taylor",,"yes","no","textual analysis"
+"public imaginaries","Marris","science",2015,"sociology",5,"Welsh-Wynne",,"yes","no","discourse analysis"
+"biopolitical imaginary","Dillon/Lobo-Guerrero","science",2009,"political theory",84,"Foucault","Waldby","yes","no","theory reading"
+"political imaginary","Novotny","science",2014,"political theory",5,"Jasanoff","Wynne","yes","no","discourse analysis"
+"performative imaginary","Ezrahi","state",2012,"political theory",13,"Taylor","Hobbes","no","no","theory reading"
+"liberatory imaginary","Twine/Stephens","science",2013,"sociology",5,"Franklin",,"yes","yes","textual analysis"
+"sociotechnical imaginary","Mikami","science",2014,"social anthropology",5,"Jasanoff",,"yes","no","ethnography"
+"the imaginary","Lennon","subjectivity",2015,"philosophy",5,"Gatens","Irigaray","no","yes","theory reading"
+"state imaginaries","Levidow","state",2013,"sociology",13,"Jasanoff",,"yes","no","discourse analysis"
+"institutional imaginaries","Stephens","science",2014,"sociology",5,"Jasanoff",,"yes","no","ethnography"

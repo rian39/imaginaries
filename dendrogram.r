@@ -4,6 +4,7 @@ library(ape)
 library(cluster)
 library(network)
 library(igraph)
+library(stats)
 data(mtcars)
 #plot(as.phylo(hclust(dist(mtcars))),type="fan")
 #daisy(mtcars)
@@ -15,7 +16,9 @@ row.names(imag) = imag$author
 #imag = imag[,-1]
 plot(as.phylo(hclust(daisy(imag, metric='gower'))),type="fan")
 plot(as.phylo(hclust(daisy(imag, metric='gower'))))
-
+d = daisy(imag)
+loc = cmdscale(d)
+#plot(loc[1], loc[2], axes=FALSE, xlab='', ylab='', type='n', asp=1)
 agnes(daisy(imag), diss=TRUE)
 #svg('dendrogram.svg')
 
