@@ -18,7 +18,7 @@ plot(as.phylo(hclust(daisy(imag, metric='gower'))),type="fan")
 plot(as.phylo(hclust(daisy(imag, metric='gower'))))
 d = daisy(imag)
 loc = cmdscale(d)
-#plot(loc[1], loc[2], axes=FALSE, xlab='', ylab='', type='n', asp=1)
+plot(loc[1], loc[2], axes=FALSE, xlab='', ylab='', type='n', asp=1)
 agnes(daisy(imag), diss=TRUE)
 #svg('dendrogram.svg')
 
