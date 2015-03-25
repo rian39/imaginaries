@@ -1,36 +1,44 @@
+library(network)
+library(cluster)
+library(ape)
 imag = read.csv('../imaginary_data.csv')
 imag$start_year = imag$year
-imag$end_year = 2015
-source('dendrogram.r')
+imag$end_year = 2016
+imag$duration_weighted = log10(imag$citations/(imag$end_year - imag$start_year))
+imag$duration_weighted
+
 row.names(imag) = imag$author
-plot(as.phylo(hclust(daisy(imag, metric='gower'))),type="fan")
-d = daisy(imag)
-loc = cmdscale(d)
-plot(loc[1], loc[2], axes=FALSE, xlab='', ylab='', type='n', asp=1)
-library(network)
-x = as.network(as.phylo(daisy(imag, metric="gower")))
-x = as.network(as.phylo(hclust(daisy(imag, metric="gower"))))
-plot(x, vertex.cex=1:4)
-plot(x, vertex.cex=1:4, labels=TRUE)
+p = as.phylo(hclust(daisy(imag, metric="gower")), use.labels=TRUE)
+x = as.network(p)
+term_nodes = unique(imag$term)
 plot(x, vertex.cex=1:4, displaylabels=TRUE)
-plot(x, vertex.cex=1:4, displaylabels=TRUE,label.cex=1:4)
-plot(x, vertex.cex=1:4, displaylabels=TRUE,label.cex=c(0.3,.0.6,.8,1))
-plot(x, vertex.cex=1:4, displaylabels=TRUE,label.cex=0.4)
-plot(x, vertex.cex=1:4, displaylabels=TRUE,label.cex=0.6)
+
+# construct network
+
+nodes_all = c(unique(as.character(imag$term)), as.character(unique(imag$author), as.character(unique(imag$cites1)), as.character(unique(imag$cites2))))
+an = network.initialize(length(nodes_all))
+network.vertex.names(an) = as.character(nodes_all)
+src = sapply(imag$term, function(x) which(nodes_all==x))
+tgt = sapply(imag$author, function(x) which(nodes_all==x))
+add.edges(an, tgt, src)
+src = sapply(imag$author, function(x) which(nodes_all == x))
+tgt = sapply(imag$cites1, function(x) which(nodes_all == x))
+add.edges(an, tgt, src)
+author_term= ifelse(nodes_all %in% imag$auth, 'red', 'green')
+science_authors = ifelse(nodes_all %in% imag$author[imag$relation.to.science == 'yes'], 4, 6) 
+citation_authors = ifelse(nodes_all %in% imag$author, 0.7, 1.9)
+citation_authors_labels = ifelse(nodes_all %in% imag$author, 0.7, 0.8)
+coord= plot.network(an,label.pos=2, usearrows=FALSE,interactive=TRUE, jitter=TRUE,arrowhead.cex=0.0, displaylabels=TRUE, label.cex = citation_authors_labels, vertex.cex = citation_authors, vertex.sides = science_authors, vertex.col = author_term, vertex.rot=10)
+
+
+plot.network(an,label.pos=2,coord = coord,  usearrows=FALSE,interactive=FALSE, jitter=TRUE,arrowhead.cex=0.0, displaylabels=TRUE, label.cex = citation_authors_labels, vertex.cex = citation_authors, vertex.sides = science_authors, vertex.col = author_term, vertex.rot=10)
+
+text('author and term network for imaginaries', x=25, y=30)
+plot(x, vertex.cex=imag$duration_weighted, displaylabels=TRUE,label.cex=0.4)
 plot(x, vertex.cex=1:3, displaylabels=TRUE,label.cex=0.6)
-str(x)
 plot(x, vertex.cex=1:4, displaylabels=TRUE,label.cex=rep(0.3,1,0.1))
-?cex
-??cex
-?graphics.par
 plot(x, vertex.cex=1:4, displaylabels=TRUE,label.cex=c(0.3,1,0.1))
-p = as.phylo(hclust(daisy(imag, metric="gower")))
-str(p)
 p$tip.label
-?as.phylo
-library(igraph)
-plot(as.igraph(p))
-plot(p, vertex.cex=1:4, displaylabels=TRUE,label.cex=c(0.3,1,0.1))
 plot(as.network(p), vertex.cex=1:4, displaylabels=TRUE,label.cex=c(0.3,1,0.1))
 str(p)
 n = as.network(p)
@@ -56,24 +64,9 @@ ls()
 pwd()
 dir()
 plot(as.network(p), vertex.cex=1:2, displaylabels=TRUE,label.cex=0.7, vertex.col='green', jitter=TRUE)
-plot(as.network(p), vertex.cex=1:2, displaylabels=TRUE,label.cex=0.7, vertex.col='green', jitter=TRUE)
 svg('figures/network3.svg')
-plot(as.network(p), vertex.cex=1:2, displaylabels=TRUE,label.cex=0.7, vertex.col='green', jitter=TRUE,title = 'clustering of imaginary authors')
 plot(as.network(p), vertex.cex=1:2, displaylabels=TRUE,label.cex=0.7, vertex.col='green', jitter=TRUE,main = 'clustering of imaginary authors')
 dev.off()
 plot(as.network(p), vertex.cex=1:2, displaylabels=TRUE,label.cex=0.7, vertex.col='green', jitter=TRUE,main = 'clustering of imaginary authors', usecurve=TRUE)
 plot(as.network(p), vertex.cex=1:2, displaylabels=TRUE,label.cex=0.7, vertex.col='green', jitter=TRUE,main = 'clustering of imaginary authors', usecurve=TRUE, uselen=TRUE)
 plot(as.network(p), vertex.cex=1:2, displaylabels=TRUE,label.cex=0.7, vertex.col='green', jitter=TRUE,main = 'clustering of imaginary authors', usecurve=TRUE, uselen=TRUE, interactive=TRUE)
-n$mel
-n$mel[1]
-n
-rbinom(n=111)
-rbinom(n=111,2)
-rbinom(n=111,2.0.5)
-rbinom(111,2.0.5)
-?rbinom
-rbinom(111,0.5)
-rbinom(111,prob=0.5)
-rbinom(size=111,prob=0.5)
-rbinom(n=111,size=111,prob=0.5)
-savehistory('network4.r')

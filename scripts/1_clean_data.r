@@ -6,5 +6,5 @@ imag = read.csv('../imaginary_data.csv')
 
 imag$start_year = imag$year
 imag$end_year = 2015
-
+row.names(imag) = imag$author
 source('dendrogram.r')
