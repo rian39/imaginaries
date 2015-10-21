@@ -1,6 +1,6 @@
 library(portfolio)
 library(treemap) 
-imag =read.csv('imaginary_data.csv')
+imag =read.csv('../imaginary_data.csv')
 #map.market(id=imag$author, area=imag$citations, group=imag$term, color=imag$year, lab=TRUE)
 year_wt = imag$citations/(2016 - imag$year)
 imag$citation_wt = log10(year_wt)+1
