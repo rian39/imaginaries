@@ -1,55 +1,56 @@
 term,author,domain,year,primary_discipline,citations,cites1,cites2,relation to science,feminism,methodology,geography
-imagination,Kant,subjectivity,1780,philosophy,20000,Plato,,no,no,theory reading,Europe
-the imaginary,Lacan,subjectivity,1936,philosophy,5000,Freud,,no,no,theory reading,France
-the imaginary,Sartre,subjectivity,1948,philosophy,600,Kant,,yes,no,theory reading,France
 imagined community,Anderson,state,1985,political theory,55000,Kant,,no,no,textual analysis,USA
-imaginary society,Castoriadis,state,1987,philosophy,1600,Kant,,no,no,theory reading,France
-figuration,Haraway,media-culture,1989,cultural studies,10000,Science Fiction,Freud,yes,yes,Material-semiotics,USA
-philosophical imaginary,Le Doeuff,subjectivity,1989,philosophy,248,Kant,Plato,no,yes,theory reading,France
 social imaginary,Appadurai,media-culture,1990,social anthropology,5000,Marx,,no,no,ethnography,USA
-corporeal imaginary,Whitford,subjectivity,1991,philosophy,105,Irigaray,,no,yes,theory reading,UK
-geographical imaginary,Gregory,state,1994,geography,189,Said,Foucault,no,no,discourse analysis,USA
-technoscientific imaginary,Marcus,science,1995,social anthropology,70,Kant,,yes,no,ethnography,USA
-geographical imaginary,K-S Taussig,biomedicine,1997,social anthropology,10,Said,Gregory,yes,no,theory reading,Netherlands
-philosophical imaginary,Verran,post-colonial,1999,philosophy,20,Le Doeuff,,yes,yes,ethnography,Australia
-biomedical imaginary,Waldby,biomedicine,2000,philosophy,69,Le Doeuff,Haraway,yes,yes,textual analysis,Australia
-genetic imaginary,Franklin,biomedicine,2000,cultural studies,120,Haraway,,yes,yes,textual analysis,UK
-genetic imaginary,Stacey,media-culture,2000,cultural studies,120,Haraway,Waldby,yes,yes,textual analysis,UK
-global imaginary,Steger,state,2002,political theory,789,Taylor,Marx,no,no,textual analysis,Germany
-social imaginary,Gaonkar,media-culture,2002,social anthropology,146,Taylor,Castoriadis,no,no,ethnography,USA
-future imaginary,Fujimura,science,2003,social anthropology,42,Marcus,Appadurai,yes,yes,ethnography,USA
-biomedical imaginary,Squiers,media-culture,2004,cultural studies,96,Haraway,,yes,yes,textual analysis,USA
-cosmopolitan imaginary,Calhoun,state,2004,sociology,220,Taylor,,no,no,discourse analysis,UK
-social imaginary,Taylor,state,2004,political theory,2000,Anderson,Kant,no,no,theory reading,Canada
-affective imaginary,Hemmings,media-culture,2005,cultural studies,150,Deleuze,,no,yes,theory reading,UK
-social imaginary,Kelty,technology,2005,social anthropology,105,Taylor,,yes,no,ethnography,USA
-sociotechnical imaginary,Jasanoff/Kim,state,2005,political theory,54,Taylor,Anderson,yes,no,comparative textual analysis,USA
-practice-bound imaginary,Hyysalo,biomedicine,2006,sociology,51,Gregory,,yes,no,ethnography,Finland
-technoscientific imaginary,Fortun/Fortun,biomedicine,2006,social anthropology,59,Marcus,,yes,no,ethnography,USA
 countercultural imaginary,Berlant,media-culture,2007,cultural studies,80,Freud,,no,yes,textual analysis,USA
-biopolitical imaginary,Dillon/Lobo-Guerrero,science,2009,political theory,84,Foucault,Waldby,yes,no,theory reading,UK
 genetic imaginary,Blaagaard,biomedicine,2009,cultural studies,2,Franklin,,yes,yes,discourse analysis,Denmark
-network imaginary,Goldstein/Butler,state,2009,geography,8,Taylor,Anderson,yes,no,discourse analysis,USA
-scientific imaginary,Wenzel Geissler/Prince,science,2009,social anthropology,7,Verran,,yes,no,ethnography,UK
-sociotechnical imaginary,Smith,state,2009,political theory,14,Jasanoff,,yes,no,comparative textual analysis,USA
-specular imaginary,Clough,subjectivity,2009,cultural studies,50,Deleuze,,no,yes,theory reading,USA
-medical imaginary,Good,biomedicine,2010,social anthropology,26,Marcus,,yes,no,ethnography,USA
-topological imaginary,Lury,media-culture,2010,sociology,50,Castoriadis,Appadurai,no,yes,theory reading,UK
-political imaginary,McNaghten,science,2011,sociology,23,Jasanoff,,yes,no,comparative textual analysis,UK
+cosmopolitan imaginary,Calhoun,state,2004,sociology,220,Taylor,,no,no,discourse analysis,UK
+imaginary society,Castoriadis,state,1987,philosophy,1600,Kant,,no,no,theory reading,France
 global imaginary,Chakrabarty,state,2012,political theory,80,Marx,,yes,no,textual analysis,Australia
+specular imaginary,Clough,subjectivity,2009,cultural studies,50,Deleuze,,no,yes,theory reading,USA
+biopolitical imaginary,Dillon/Lobo-Guerrero,science,2009,political theory,84,Foucault,Waldby,yes,no,theory reading,UK
 performative imaginary,Ezrahi,state,2012,political theory,13,Taylor,Hobbes,yes,no,theory reading,Israel
-topological imaginary,Marres,science,2012,sociology,11,Suchman,Lury,yes,no,ethnography,UK
-liberatory imaginary,Twine/Stephens,science,2013,sociology,5,Franklin,,yes,yes,textual analysis,UK
-public imaginaries,Welsh/Wynne,science,2013,sociology,14,Taylor,,yes,no,textual analysis,UK
+technoscientific imaginary,Fortun/Fortun,biomedicine,2006,social anthropology,59,Marcus,,yes,no,ethnography,USA
+genetic imaginary,Franklin,biomedicine,2000,cultural studies,120,Haraway,,yes,yes,textual analysis,UK
+future imaginary,Fujimura,science,2003,social anthropology,42,Marcus,Appadurai,yes,yes,ethnography,USA
+social imaginary,Gaonkar,media-culture,2002,social anthropology,146,Taylor,Castoriadis,no,no,ethnography,USA
+network imaginary,Goldstein/Butler,state,2009,geography,8,Taylor,Anderson,yes,no,discourse analysis,USA
+medical imaginary,Good,biomedicine,2010,social anthropology,26,Marcus,,yes,no,ethnography,USA
+geographical imaginary,Gregory,state,1994,geography,189,Said,Foucault,no,no,discourse analysis,USA
 public imaginaries,Haran,science,2013,sociology,5,Haraway,,yes,yes,textual analysis,UK
+figuration,Haraway,media-culture,1989,cultural studies,10000,Science Fiction,Freud,yes,yes,Material-semiotics,USA
+affective imaginary,Hemmings,media-culture,2005,cultural studies,150,Deleuze,,no,yes,theory reading,UK
+practice-bound imaginary,Hyysalo,biomedicine,2006,sociology,51,Gregory,,yes,no,ethnography,Finland
+sociotechnical imaginary,Jasanoff/Kim,state,2005,political theory,54,Taylor,Anderson,yes,no,comparative textual analysis,USA
+geographical imaginary,K-S Taussig,biomedicine,1997,social anthropology,10,Said,Gregory,yes,no,theory reading,Netherlands
+imagination,Kant,subjectivity,1780,philosophy,20000,Plato,,no,no,theory reading,Europe
+social imaginary,Kelty,technology,2005,social anthropology,105,Taylor,,yes,no,ethnography,USA
+the imaginary,Lacan,subjectivity,1936,philosophy,5000,Freud,,no,no,theory reading,France
+philosophical imaginary,Le Doeuff,subjectivity,1989,philosophy,248,Kant,Plato,no,yes,theory reading,France
+the imaginary,Lennon,subjectivity,2015,philosophy,5,Gatens,Irigaray,no,yes,theory reading,UK
 state imaginaries,Levidow,state,2013,sociology,13,Jasanoff,Anderson,yes,no,discourse analysis,UK
-activist imaginary,Reestorff,media-culture,2014,cultural studies,5,Marcus,,no,yes,textual analysis,Denmark
-biomedical imaginary,Tutton,biomedicine,2014,sociology,10,Waldby,Stacey,yes,yes,discourse analysis,UK
-institutional imaginaries,Stephens,science,2014,sociology,5,Jasanoff,,yes,no,ethnography,UK
-political imaginary,Novotny,science,2014,political theory,5,Jasanoff,Wynne,yes,no,discourse analysis,Germany
-reiterative imaginary,Suchman/Castenada,technology,2014,social anthropology,10,Haraway,,yes,yes,comparative textual analysis,UK/USA
+topological imaginary,Lury,media-culture,2010,sociology,50,Castoriadis,Appadurai,no,yes,theory reading,UK
+technoscientific imaginary,Marcus,science,1995,social anthropology,70,Kant,,yes,no,ethnography,USA
+topological imaginary,Marres,science,2012,sociology,11,Suchman,Lury,yes,no,ethnography,UK
+public imaginaries,Marris,science,2015,sociology,5,Welsh-Wynne,,yes,no,discourse analysis,UK
+political imaginary,McNaghten,science,2011,sociology,23,Jasanoff,,yes,no,comparative textual analysis,UK
 sociotechnical imaginary,Mikami,science,2014,social anthropology,5,Jasanoff,,yes,no,ethnography,Japan
 urban sanitation imaginary,Morales,state,2014,geography,5,Taylor,,yes,no,ethnography,Canada
+political imaginary,Novotny,science,2014,political theory,5,Jasanoff,Wynne,yes,no,discourse analysis,Germany
+imaginary,Prasad,science,2014,social anthropology,5,Jasanoff,,yes,no,comparative textual analysis,USA
+activist imaginary,Reestorff,media-culture,2014,cultural studies,5,Marcus,,no,yes,textual analysis,Denmark
+the imaginary,Sartre,subjectivity,1948,philosophy,600,Kant,,yes,no,theory reading,France
+sociotechnical imaginary,Smith,state,2009,political theory,14,Jasanoff,,yes,no,comparative textual analysis,USA
+biomedical imaginary,Squiers,media-culture,2004,cultural studies,96,Haraway,,yes,yes,textual analysis,USA
+genetic imaginary,Stacey,media-culture,2000,cultural studies,120,Haraway,Waldby,yes,yes,textual analysis,UK
+global imaginary,Steger,state,2002,political theory,789,Taylor,Marx,no,no,textual analysis,Germany
 bioimaginary,Steinberg,science,2015,cultural studies,5,Stacey,,yes,yes,textual analysis,UK
-public imaginaries,Marris,science,2015,sociology,5,Welsh-Wynne,,yes,no,discourse analysis,UK
-the imaginary,Lennon,subjectivity,2015,philosophy,5,Gatens,Irigaray,no,yes,theory reading,UK
+institutional imaginaries,Stephens,science,2014,sociology,5,Jasanoff,,yes,no,ethnography,UK
+reiterative imaginary,Suchman/Castenada,technology,2014,social anthropology,10,Haraway,,yes,yes,comparative textual analysis,UK/USA
+social imaginary,Taylor,state,2004,political theory,2000,Anderson,Kant,no,no,theory reading,Canada
+biomedical imaginary,Tutton,biomedicine,2014,sociology,10,Waldby,Stacey,yes,yes,discourse analysis,UK
+liberatory imaginary,Twine/Stephens,science,2013,sociology,5,Franklin,,yes,yes,textual analysis,UK
+philosophical imaginary,Verran,post-colonial,1999,philosophy,20,Le Doeuff,,yes,yes,ethnography,Australia
+biomedical imaginary,Waldby,biomedicine,2000,philosophy,69,Le Doeuff,Haraway,yes,yes,textual analysis,Australia
+public imaginaries,Welsh/Wynne,science,2013,sociology,14,Taylor,,yes,no,textual analysis,UK
+scientific imaginary,Wenzel Geissler/Prince,science,2009,social anthropology,7,Verran,,yes,no,ethnography,UK
+corporeal imaginary,Whitford,subjectivity,1991,philosophy,105,Irigaray,,no,yes,theory reading,UK

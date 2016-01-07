@@ -1,0 +1,46 @@
+year	term
+1780	imagination
+1936	the imaginary
+1985	imagined community
+1987	imaginary society
+1989	figuration
+1989	philosophical imaginary
+1990	social imaginary
+1991	corporeal imaginary
+1994	geographical imaginary
+1995	technoscientific imaginary
+1997	geographical imaginary
+1999	philosophical imaginary
+2000	genetic imaginary
+2000	biomedical imaginary
+2002	global imaginary
+2003	future imaginary
+2004	cosmopolitan imaginary
+2004	biomedical imaginary
+2005	affective imaginary
+2005	sociotechnical imaginary
+2006	technoscientific imaginary
+2006	practice-bound imaginary
+2007	countercultural imaginary
+2009	specular imaginary
+2009	biopolitical imaginary
+2009	network imaginary
+2009	scientific imaginary
+2010	medical imaginary
+2010	topological imaginary
+2011	political imaginary
+2012	global imaginary
+2012	performative imaginary
+2012	topological imaginary
+2013	public imaginaries
+2013	state imaginaries
+2013	liberatory imaginary
+2013	public imaginaries
+2014	urban sanitation imaginary
+2014	political imaginary
+2014	imaginary
+2014	activist imaginary
+2014	institutional imaginaries
+2014	reiterative imaginary
+2015	public imaginaries
+2015	bioimaginary
