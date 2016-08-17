@@ -37,7 +37,7 @@ coord= plot.network(an,label.pos=3, usearrows=FALSE,interactive=TRUE, jitter=TRU
 nodes_all = c(unique(as.character(imag$term_abbrev)), as.character(unique(imag$author_yr), as.character(unique(imag$cites1)), as.character(unique(imag$cites2))))
 network.vertex.names(an) = as.character(nodes_all)
 
-svg('../figures/network13.svg', 10, 8)
+svg('../figures/network14.svg', 10, 8)
 plot.network(an,interactive=FALSE, coord = coord,  usearrows=FALSE, jitter=TRUE,arrowhead.cex=0.0, displaylabels=TRUE, label.pos=3, label.cex = citation_authors_labels, vertex.cex = citation_authors, edge.lwd=.5, edge.lty=3, vertex.sides = science_authors, vertex.col = author_term, vertex.rot=10, usecurve=FALSE)
 text('Author and term network for imaginaries', font=2, x=-15, y=-35, cex=0.9 )
 text('Authors (in blue); imaginary terms (in green) abbreviated to Im.', x=-14, y=-37, cex=0.7 )
